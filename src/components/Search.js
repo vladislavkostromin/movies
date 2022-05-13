@@ -23,6 +23,8 @@ const Search = (props) => {
           value={searchValue}
           onChange={handleSearchInputChanges}
           type="text"
+          placeholder="Enter movie title..."
+          style={{paddingLeft: 20}}
         />
         <input className="search-btn" onClick={callSearchFunction} type="submit" value={'Search'}/>
       </form>
